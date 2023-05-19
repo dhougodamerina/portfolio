@@ -3,9 +3,9 @@ import DownloadPDF from "./downloadPDF";
 
 const AboutMe = () => {
   return (
-    <div className="flex flex-col justify-center items-center my-10">
+    <div className="flex flex-col justify-center items-center my-10 max-sm:w-[100%] max-md:w-[100%]">
       <h2 className="text-gray font-thin text-3xl mb-10">About Me</h2>
-      <p className=" text-lg tracking-normal mx-4">
+      <p className=" text-lg tracking-normal mx-4 max-sm:text-base">
         Hi there! My name is Amanda Rachel and I&apos;m a junior developer with
         a degree in Computer Science. I have experience in React, Javascript,
         HTML, CSS and I&apos;m eager to continue learning and growing my skills
